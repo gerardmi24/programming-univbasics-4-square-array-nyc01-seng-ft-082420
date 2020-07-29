@@ -6,7 +6,6 @@ def square_array(numbers)
     numbers[0]**numbers[0]
     counter += 1
     new_numbers.push(numbers[index] + 1)
-     # your code here
 end
 new_array
 end
