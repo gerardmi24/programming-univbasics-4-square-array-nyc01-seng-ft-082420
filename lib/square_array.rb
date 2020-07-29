@@ -1,4 +1,4 @@
-array = [5, 10, 12]
+array = [1, 2, 3]
 new_array = []
 def square_array(array)
   array.times do |index|
