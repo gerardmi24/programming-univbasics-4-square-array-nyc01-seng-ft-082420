@@ -2,7 +2,9 @@ numbers = [1, 2, 3]
 new_numbers = []
 def square_array(numbers)
   counter = 0
-  numbers.times do |index|
+  while counter < numbers.length do
+    numbers[0]**numbers[0]
+    counter += 1
     new_array.push(array[index] + 1)
      # your code here
 end
